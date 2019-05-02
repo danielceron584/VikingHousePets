@@ -1,18 +1,46 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>  Viking House Pets   </title>
+    <title>  Viking House Pets   </title>    
+    <link href="cssImport.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <script src="main.js"></script>   
 </head>
 <body>
     <header>
-        <ul class="headerPro">
-        <li class="home"> Home </li>
-        <li class="tweets" href="tweets.html"> Tweets </li>
-        <li class="signUp" href="signUp.html"> Sign Up </li>
-        <li class="adoptPet" href="adoptPet.html">Find your pet</li>
-        </ul>
+        <div class="headerPro">
+        <div class="home links"> <a href="index.html">  Home </a> </div>
+        <div class="tweets links"> <a href="tweets.html"> Tweets </a> </div>
+        <div class="signUp links"> <a href="signUp.html"> Sign Up </a> </div>
+        <div class="adoptPet links"> <a href="adoptPet.html"> Find Your Pet </a> </div>
+        </div>
     </header>
+    
+    <h1> Sign Up </h1> <br><br>
+    <h3>Through the next form you can register on our page</h3>
+    <br>
+
+    <article>
+
+        <form action="signUp.html" method="GET">
+                First name: <input type="text" name="fname"><br>
+                Last name: <input type="text" name="lname"><br>
+                E-mail: <input type="text" name="mail"><br>
+                Mobile number: <input type="number" name="mnumber"><br>
+                Nickname: <input type="text" name="nname"><br>
+                Password: <input type="password" name="pswrd"><br>
+                Are you agree with our terms and conditions? <br>
+                <input type="radio" name="terms" value="yes"> Yes 
+                <input type="radio" name="terms" value="no" checked> No  
+                
+                <br>  
+
+                <input type="reset" value="Reset Form"> 
+                <input type="submit" value="Submit" onclick="alert('You are successfully registered ')">
+
+
+        </form>
+    </article>

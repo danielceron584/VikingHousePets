@@ -11,3 +11,37 @@
     text-align: center;
     margin-left: 8%;
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+    overflow-y:auto;
+    display: flex;
+}
+aside{
+    flex: 1;
+    overflow-y:auto;
+}
+
+.texto{
+    text-align: center;
+}
+h1, h2{
+    text-align: center;
+}
+
+.sizeText{
+    font-size: 18px;
+    text-align: center; 
+}
+
+footer{
+    background-color: red;
+}
