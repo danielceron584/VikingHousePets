@@ -45,14 +45,16 @@ h1, h2{
 
 
 body{
-    background-image: url('https://i.imgur.com/2iPNRK3.jpg');
+    /*background-image: url('https://i.imgur.com/2iPNRK3.jpg');*/
+    background-image: url('https://i.imgur.com/YlLlY3d.jpg');
     background-size: cover;
     background-repeat: repeat-y;
 }
 .mainImage{
-    margin-left: 15%; 
-    width: 70%;
-    height: 70%;
+    margin-left: 24%; 
+    width: 50%;
+    height: 50%;
+    
 }
 header{
     margin-left: 15%;
@@ -65,21 +67,67 @@ aside{
 }
 
 footer{
-    background-color: transparent;
-    color: green;
-    opacity: 0.8;
-    margin-left: 15%;
-    width: 70%;
+    background-color: #32704D;
+    color: black;
+    opacity: 0.9;   
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+    border:black solid 3px;
+    
+}
+header{
+    /*background-color: #0276A4;*/
+    background-color: #F99C02;
+    color: black;
+    height: 6%;
+    opacity: 0.9;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+    border: black 3px solid;
+    position: fixed;
+    margin-left: 6%; 
+    
+    
 }
 
 .buttonAdopt{
-    width: 70%;
-    margin-left: 15%;
-    background-color: yellowgreen;
-    
+    width: 30%;
+    margin-left: 35%;
+    background-color: transparent;    
     color: green;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+    border:black solid 3px;
+}
+.buttonAdopt:hover{
+    background-color: yellowgreen; 
 }
 .separatorLine{
     width: 70%;
     margin-left: 15%    
+}
+.mainImage{
+    border: 2px black solid;
+}
+@font-face{
+    font-family: 'Bloomer';
+    src: url("Bloomer.otf");
+}
+h1, h2, .footerTitle{
+    font-family: 'Bloomer';
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+.links{
+    font-family: 'Bloomer';
+    font-size: 20px;
+    
+}
+.footerContent{
+    margin-left: 2%;    
 }
