@@ -42,6 +42,44 @@ h1, h2{
     text-align: center; 
 }
 
+
+
+body{
+    background-image: url('https://i.imgur.com/2iPNRK3.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+.mainImage{
+    margin-left: 15%; 
+    width: 70%;
+    height: 70%;
+}
+header{
+    margin-left: 15%;
+    width: 70%;
+    background-color: transparent;
+    
+}
+aside{
+    background-color: transparent;
+}
+
 footer{
-    background-color: red;
+    background-color: transparent;
+    color: green;
+    opacity: 0.8;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.buttonAdopt{
+    width: 70%;
+    margin-left: 15%;
+    background-color: yellowgreen;
+    
+    color: green;
+}
+.separatorLine{
+    width: 70%;
+    margin-left: 15%    
 }
