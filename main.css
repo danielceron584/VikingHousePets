@@ -1,16 +1,21 @@
-*{
-    padding: 0%;
-    margin: 0;
-}
+
 
 .headerPro{
     display: flex;
+    
 }
 .headerPro > *{
+    
+    margin-left: 10%;
+    height: 6%;
+}
+
+
+/*.headerPro > *{
     padding-right: 10%;
     text-align: center;
     margin-left: 8%;
-}
+}*/
 body{
     display: flex;
     flex-direction: column;
@@ -25,6 +30,7 @@ article{
     overflow-y:auto;
     display: flex;
 }
+
 aside{
     flex: 1;
     overflow-y:auto;
@@ -56,12 +62,12 @@ body{
     height: 50%;
     
 }
-header{
+/*header{
     margin-left: 15%;
-    width: 70%;
+    width: 45%;
     background-color: transparent;
     
-}
+}*/
 aside{
     background-color: transparent;
 }
@@ -81,14 +87,15 @@ header{
     /*background-color: #0276A4;*/
     background-color: #F99C02;
     color: black;
-    height: 6%;
+    /*height: 6%;*/
     opacity: 0.9;
     border-radius: 10px 10px 10px 10px;
 -moz-border-radius: 10px 10px 10px 10px;
 -webkit-border-radius: 10px 10px 10px 10px;
     border: black 3px solid;
-    position: fixed;
-    margin-left: 6%; 
+    /*position: fixed;*/
+    /*margin-left: 6%;*/ 
+
     
     
 }
@@ -120,7 +127,7 @@ header{
     font-family: 'Bloomer';
     src: url("Bloomer.otf");
 }
-h1, h2, .footerTitle{
+h1, h2, h3, .footerTitle{
     font-family: 'Bloomer';
 }
 
@@ -133,4 +140,25 @@ h1, h2, .footerTitle{
 }
 .footerContent{
     margin-left: 2%;    
+}
+.textCenter{
+    text-align: center;
+}
+.downText{
+    margin-top: 50%
+}
+.textPet2{
+    margin-top: 100%; 
+}
+.textPet3{
+    margin-top: 120%; 
+}
+.textPet4{
+    margin-top: 125%; 
+}
+.textPet5{
+    margin-top: 110%; 
+}
+.textPet6{
+    margin-top: 100%;
 }
