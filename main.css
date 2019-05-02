@@ -111,7 +111,10 @@ header{
     margin-left: 15%    
 }
 .mainImage{
-    border: 2px black solid;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+    border:black solid 3px;
 }
 @font-face{
     font-family: 'Bloomer';
